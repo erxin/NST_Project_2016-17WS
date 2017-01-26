@@ -1,13 +1,7 @@
-%
-% Example for a student report latex file. Adapt as necessary
-%
-
-% the following lines should stay as is
 \documentclass[10pt,a4paper,twoside,journal]{IEEEtran}
 \usepackage[nocompress]{cite}
 \usepackage[pdftex]{graphicx}
 \graphicspath{ {images/} }
-% some packages that most people use or improve the result
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{amsmath}
@@ -21,26 +15,27 @@
 \usepackage{xspace}
 \usepackage{algorithm}
 \usepackage{url}
+\usepackage{subfigure}
 \usepackage[pagebackref=true,breaklinks=true,colorlinks,bookmarks=false]{hyperref}
 \usepackage{lipsum}
-
+\usepackage{romannum}
 \begin{document}
-\newcommand{\submissiondate}{\today}
-\newcommand{\submissiontype}{Advanced Seminar}
+\newcommand{\submissiondate}{January 24, 2017}
+\newcommand{\submissiontype}{Projektpraktikum}
 \newcommand{\submissionterm}{Winter Semester 2016}
 \newcommand{\submissiontermshort}{WS 2016}
 \newcommand{\submissiontitle}{Student Report Example}
 
 \newcommand{\submissiontitleshort}{Report Example}
-\author{John~Doe, Jane~Roe, and Max~Mustermann%
+\author{Bo~Huang, Bi~Wang and Erxin~Wang%
 	\thanks{\textbf{Authors}:
-		John Doe (12345678, john.doe@tum.de),
-		Jane Roe (87654321, jane.roe@tum.de),
-		and Max Mustermann (56794321, max@mustermann.tld)
+		Bo Huang,
+		Bi Wang,
+		and Erxin Wang
 		% the following includes additional information
 		\textbf{Course}: \submissiontype{} \submissionterm{}
 		\textbf{Submitted}: \submissiondate{}
-		\textbf{Supervisor}: Name Familyname.
+		\textbf{Supervisor}: Lukas Everding,
 		Neuroscientific System Theory (Prof. Dr. J\"org Conradt), Technische
 		Universit\"at M\"unchen, Arcisstraße 21, 80333 M\"unchen, Germany.
 }}
